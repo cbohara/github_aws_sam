@@ -1,7 +1,3 @@
-on:
-  push:
-    branches:
-      - main
 jobs:
   demo-api-deploy:
     runs-on: ubuntu-latest
