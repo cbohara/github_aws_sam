@@ -1,3 +1,5 @@
+name: demo2
+on: workflow_dispatch
 jobs:
   demo-api-deploy:
     runs-on: ubuntu-latest
