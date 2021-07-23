@@ -24,7 +24,7 @@ jobs:
   demo-api-deploy-2:
     runs-on: ubuntu-latest
     env:
-      NAME: github-aws-sam-demo-api
+      NAME: github-aws-sam-demo-api-2
       BUCKET: cohara-prod-dl-bucket
     steps:
       - uses: actions/checkout@v2
